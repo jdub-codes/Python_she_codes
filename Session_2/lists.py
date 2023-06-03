@@ -47,11 +47,29 @@ digits = [1,2,3,4,5] #stri,int,float,list
 # digits[1] = 90
 # print(digits) #This will turn the second number into 90
 
-letters = ['a','b','c','d',['Emily','Julie']]
-print(letters[4][0]) # This will return Emily # Get from first list, then get the first element from another list
+# letters = ['a','b','c','d',['Emily','Julie']]
+# print(letters[4][0]) # This will return Emily # Get from first list, then get the first element from another list
 
-# Check if 'a' exists in the list letters
-if 'a' in letters:
-    print("It is in the list")
+# # Check if 'a' exists in the list letters
+# if 'a' in letters:
+#     print("It is in the list")
 
+# Exercises
 
+# Q1
+# Given the list of foods below, print:
+# The first item in the list.
+# The third item in the list.
+# The last item in the list.
+# The first three items in the list.
+# The last three items in the list.
+# The last item in the sublist.
+
+foods = ["orange","apple","banana","strawberry","grape","blueberry", ["carrot", "cauliflower", "pumpkin"],"passionfruit","mango","kiwifruit"]
+
+# print(foods[0])
+# print(foods[2])
+# print(foods[-1])
+# print(foods[0:3])
+# print(foods[7:]) # Nested lists count as one of the sequence of numbers
+print(foods[10][2])
