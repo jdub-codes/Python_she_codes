@@ -50,9 +50,9 @@ distance = "5000"
 # print(f"Your distance in meters is {int(distance)*1000}")
 
 # Write a program that takes the user's name and height(in centimeters), and outputs a summary sentence.
-#
-
-
+# name = input("What is your name?")
+# height = input("What is height in cm?")
+# print(f"Your name is {name} and your height is {height}")
 
 
 
