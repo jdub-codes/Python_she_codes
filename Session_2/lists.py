@@ -88,11 +88,11 @@
 # A little bit of you makes me your man (ah!)
 # *trumpet solo*
 
-lyrics = [["Monica", "in my life"],["Erica", "by my side"],["Rita's", "all I need"],["Tina's", "what I see"],["Sandra", "in the sun"],["Mary", "having fun"],["Jessica", "here I am"]]
+# lyrics = [["Monica", "in my life"],["Erica", "by my side"],["Rita's", "all I need"],["Tina's", "what I see"],["Sandra", "in the sun"],["Mary", "having fun"],["Jessica", "here I am"]]
 
-print("A little bit of",lyrics[0],";")
-print("A little bit of you makes me your name (ah!)")
-print("*trumpet solo*")
+# print("A little bit of",lyrics[0],";")
+# print("A little bit of you makes me your name (ah!)")
+# print("*trumpet solo*")
 
 #Question 3
 
@@ -102,9 +102,9 @@ print("*trumpet solo*")
 # Arcturus
 # ["Anteres", "Rigel", "Arcturus"]
 
-# Firstname = input("Type the name Anterest")
-# Secondname = input("Type the name Rigel")
-# Thirdname = input("Type the name Arcturus")
+# Firstname = input("What is the first name for this list?")
+# Secondname = input("What is the second name for this list?")
+# Thirdname = input("What is the third name for this list?")
 
 # names = [Firstname, Secondname, Thirdname]
 # print(names)
