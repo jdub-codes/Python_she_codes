@@ -92,11 +92,18 @@
 
 # My Answer
 
-# lyrics = [["Monica", "in my life"],["Erica", "by my side"],["Rita's", "all I need"],["Tina's", "what I see"],["Sandra", "in the sun"],["Mary", "having fun"],["Jessica", "here I am"]]
+lyrics = [["Monica", "in my life"],["Erica", "by my side"],["Rita's", "all I need"],["Tina's", "what I see"],["Sandra", "in the sun"],["Mary", "having fun"],["Jessica", "here I am"]]
+repeat = ("A little bit of")
 
-# print("A little bit of",lyrics[0],";")
-# print("A little bit of you makes me your name (ah!)")
-# print("*trumpet solo*")
+print(repeat,lyrics[0][0],lyrics[0][1],";")
+print(repeat,lyrics[1][0],lyrics[1][1],";")
+print(repeat,lyrics[2][0],lyrics[2][1],";")
+print(repeat,lyrics[3][0],lyrics[3][1],";")
+print(repeat,lyrics[4][0],lyrics[4][1],";")
+print(repeat,lyrics[5][0],lyrics[5][1],";")
+print(repeat,lyrics[6][0],lyrics[6][1],";")
+print("A little bit of you makes me your name (ah!)")
+print("*trumpet solo*")
 
 #Question 3
 
@@ -108,21 +115,21 @@
 
 # My Answer
 
-#Ask for user input
-name1 = input("Type a name")
-name2 = input("Type another name")
-name3 = input("Type another name")
+# #Ask for user input
+# name1 = input("Type a name")
+# name2 = input("Type another name")
+# name3 = input("Type another name")
 
-#Create an empty list that will store user input.
-namelist = []
+# #Create an empty list that will store user input.
+# namelist = []
 
-#Store each user input into the empty list
-namelist.append(name1)
-namelist.append(name2)
-namelist.append(name3)
+# #Store each user input into the empty list
+# namelist.append(name1)
+# namelist.append(name2)
+# namelist.append(name3)
 
-#print the new namelist.
-print(namelist)
+# #print the new namelist.
+# print(namelist)
 
 # Question 4
 
