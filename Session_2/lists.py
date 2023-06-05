@@ -66,6 +66,8 @@
 # The last three items in the list.
 # The last item in the sublist.
 
+# My Answers
+
 # foods = ["orange","apple","banana","strawberry","grape","blueberry", ["carrot", "cauliflower", "pumpkin"],"passionfruit","mango","kiwifruit"]
 
 # print(foods[0])
@@ -88,6 +90,8 @@
 # A little bit of you makes me your man (ah!)
 # *trumpet solo*
 
+# My Answer
+
 # lyrics = [["Monica", "in my life"],["Erica", "by my side"],["Rita's", "all I need"],["Tina's", "what I see"],["Sandra", "in the sun"],["Mary", "having fun"],["Jessica", "here I am"]]
 
 # print("A little bit of",lyrics[0],";")
@@ -102,12 +106,23 @@
 # Arcturus
 # ["Anteres", "Rigel", "Arcturus"]
 
-# Firstname = input("What is the first name for this list?")
-# Secondname = input("What is the second name for this list?")
-# Thirdname = input("What is the third name for this list?")
+# My Answer
 
-# names = [Firstname, Secondname, Thirdname]
-# print(names)
+#Ask for user input
+name1 = input("Type a name")
+name2 = input("Type another name")
+name3 = input("Type another name")
+
+#Create an empty list that will store user input.
+namelist = []
+
+#Store each user input into the empty list
+namelist.append(name1)
+namelist.append(name2)
+namelist.append(name3)
+
+#print the new namelist.
+print(namelist)
 
 # Question 4
 
@@ -122,13 +137,19 @@
 # [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
+# My Answers
+
 # a = [1, 2, 3]
 # b = [4, 5, 6]
 # c = [7, 8, 9]
 # d = []
 # e = []
 
+# List 1
+
 # print(a, b, c)
+
+# List 2
 
 # flatlist = (a + b + c)
 # print(flatlist)
