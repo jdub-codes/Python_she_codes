@@ -58,12 +58,17 @@
 #     print(numberlist)
 # print(sum(numberlist))
 
+#Question 2
+
 # Ask the user to enter a integer number. 
 # Print all the odd numbers between 0 and that number (inclusive). 
 # (Its ok not to worry about negative numbers for now, unless you really want a challenge.)
 
 # My Answer
 
-oddnumbers = int("Enter a number") # Ask the user to enter number as an integer
-
-
+# numbers = int(input("Enter a number")) # Ask the user to enter number
+# oddnumbers = [] # Create a list for the numbers to go into
+# while numbers % 2 != 0: # This says I only want odd numbers
+#         oddnumbers.append((numbers)) # This puts the oddnumbers into the list
+#         numbers = int(input("Enter a number")) # This prompts the user for another number
+# print(oddnumbers) #This will print the odd numbers added to the list
