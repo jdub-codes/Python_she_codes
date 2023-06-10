@@ -66,9 +66,22 @@
 
 # My Answer
 
-# numbers = int(input("Enter a number")) # Ask the user to enter number
-# oddnumbers = [] # Create a list for the numbers to go into
-# while numbers % 2 != 0: # This says I only want odd numbers
-#         oddnumbers.append((numbers)) # This puts the oddnumbers into the list
-#         numbers = int(input("Enter a number")) # This prompts the user for another number
-# print(oddnumbers) #This will print the odd numbers added to the list
+# start = 0
+# end = int(input("Enter a number"))
+# for number in range (start, end + 1):
+#     if number % 2 != 0:
+#         print(number, end = " ")
+
+# Question 3
+# Write a guessing game. Select a number, and save it as a variable in your code.
+# Ask the user to enter a number, and then output whether their number is less than or greater than the selected number. 
+# Keep asking until the user guesses the correct number. Then print a congratulatatory message.
+
+answer = 25
+guess = int(input("Guess a number:"))
+while guess == answer:
+    if guess > answer:
+        print("Too high...")
+    elif guess < answer:
+        print("Too low...")
+    print("You got it right!")
