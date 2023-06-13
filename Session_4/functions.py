@@ -64,12 +64,13 @@
 # user_input = get_integer(prompt)
 # print(f"So your integer is {user_input}? Thanks!")
 
-prompt = "Could I please have an integer?:"
+# # My Answer
 
-def get_integer()
+prompt = input("Could I please have an integer?:")
+
+def get_integer():
+    user_input = int(prompt)
+    return user_input
 
 user_input = get_integer(prompt)
 print(f"So your integer is {user_input}? Thanks!")
-
-
-
