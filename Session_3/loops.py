@@ -145,3 +145,94 @@
 
 # total = sum(list_of_numbers)
 # print(total)
+
+# Question 3
+
+# Save a list of numbers to a variable in your script, 
+# and then use a for loop to print the sum of all the numbers in the list
+
+# my_numbers = [3, 5, 9, 1]
+# my_numbers = [-3, -5, 9, 1]
+# my_numbers = []
+
+# my_numbers = [3, 5, 9, 1]
+# total = 0
+# for element in my_numbers:
+#     total = total + element
+#     print(total)
+
+# Question 4
+
+# Let's improve our Mambo No. 5 code from the last block of content.
+# Save the following variable in your code:
+
+# Lyrics = [    
+#     ["Monica", "in my life"],    
+#     ["Erica", "by my side"],    
+#     ["Rita's", "all I need"],    
+#     ["Tina's", "what I see"],    
+#     ["Sandra", "in the sun"],    
+#     ["Mary", "having fun"],    
+#     ["Jessica", "here I am"]
+#     ]
+
+# for i in Lyrics:
+#     name = i[0]
+#     text = i[1]
+#     song = "A little bit of" + name + " " + text +";"
+#     print(song)
+# print(f"*trumpet solo")
+
+# # Asli's answer
+
+# for i in Lyrics:
+#     name,text = i
+#     song - "A little bit of" + name + " " + text = ";"
+#     pring(song)
+# print(f"A little beit of you makes me your man")
+# print(f"*trumpet solo")
+
+# Nested loops
+
+# Question 1
+
+# Below is a list of grocery items and their prices per unit:
+# groceries = [    
+#     ["Baby Spinach", 2.78],    
+#     ["Hot Chocolate", 3.70],    
+#     ["BBQ Shapes", 9.00],    
+#     ["Bread", 2.10],    
+#     ["Carrots", 0.56],    
+#     ["Oranges", 3.08]]
+
+# Ask the user how many units of each item they bought, then output the corresponding receipt.
+
+# groceries = [    
+#     ["Baby Spinach", 2.78],    
+#     ["Hot Chocolate", 3.70],    
+#     ["BBQ Shapes", 9.00],    
+#     ["Bread", 2.10],    
+#     ["Carrots", 0.56],    
+#     ["Oranges", 3.08]]
+
+# sum = 0
+# for item in groceries:
+#     quantity = int(input(f"Enter a quantity for {item}"))
+#     sum = sum + quantity * item[1]
+# print(f"Thank you your total is ${sum}")
+
+# Question 2
+
+# number = 84
+# repeat = 'yes'
+# while repeat != 'no':
+#     guess = int(input("Make a guess: "))
+#     while number != guess:
+#         if guess < number:
+#             print("Too long! Try again.")
+#         else:
+#             print("Too high. Try again.")
+#         guess = int(input("Make another guess:"))
+#     print("You got it right!")
+#     repeat = input("Do you want to play again? Type 'no' to exit the game")
+

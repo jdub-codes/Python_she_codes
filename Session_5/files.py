@@ -26,15 +26,14 @@ import csv
 
 # Question 1
 
-# Write a program that reads in colours_20_simple.csv and print each line of the colour data one by one as a string. 
+# Write a program that reads in colours_20_simple.csv and print 
+# each line of the colour data one by one as a string. 
 # Use spaces to separate the columns insead of commas.
 
-with open(file="colours_20_simple.csv", mode="r", encoding="utf-8") as my_file:
-    csv_reader = csv.reader(my_file, delimiter = " ")
-    for row in csv_reader:
-        print(row)
-
-
+# with open(file="colours_20_simple.csv", mode="r", encoding="utf-8") as my_file:
+#     csv_reader = csv.reader(my_file, delimiter = ",")
+#     for row in csv_reader:
+#         print(f"{row[0]} {row[1]} {row[2]}")
 
 # Question 2 
 
@@ -42,15 +41,48 @@ with open(file="colours_20_simple.csv", mode="r", encoding="utf-8") as my_file:
 # English, Hex then RGB, like so:
 # Green beige, Hex: #BEBD7F, RGB: 190-189-127
 
+# with open(file="colours_20_simple.csv", mode="r", encoding="utf-8") as my_file:
+#     csv_reader = csv.reader(my_file, delimiter = ",")
+#     csv_reader.__next__() # This will go to the next the line
+#     for row in csv_reader:
+#         print(f"{row[2]}, Hex:{row[1]}, RGB:{row[0]}")
+
+with open(file="colours_20_simple.csv", mode="r", encoding="utf-8") as my_file:
+    csv_reader = csv.reader(my_file, delimiter = ",")
+    header = True
+    for row in csv_reader:
+        if header == False:
+            print(f"{row[2]}, Hex:{row[1]}, RGB:{row[0]}")
+        else:
+            header = False
+
 # My Answer
 
 # Question 3
+
+# My Answer
 
 # Write a program that takes a csv file describing colours, 
 # and outputs the number of times each of the following colours 
 # appears in the English Name:redgreenblueyellowOutput for colours_20.csv:
 
-# My Answer
+with open(file="colours_20_simple.csv", mode="r", encoding="utf-8") as my_file:
+    csv_reader = csv.reader(my_file, delimiter = ",")
+    Red = 0
+    Green = 0
+    Blue = 0
+    Yellow = 1
+    for row in csv_reader:
+        if "red" in row[2].lower():
+            Red = Red + 1
+        elif "green"
+    
+        print(row)
+
+# Red: 0
+# Green: 0
+# Blue: 0
+# Yellow: 1
 
 # Question 4
 

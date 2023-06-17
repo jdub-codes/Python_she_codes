@@ -7,25 +7,25 @@
 # Keys can be only be immutable data types
 # Immutable - Strings, integers, floats, booleans
 # Curly brackets, it stores pairs,"Cindy" is the key, elements separated by a comma
-student_phonebook = {
-    "Cindy":111,
-    "Tracey":123,
-    "Pauline":444
-    } 
+# student_phonebook = {
+#     "Cindy":111,
+#     "Tracey":123,
+#     "Pauline":444
+#     } 
 
-print(student_phonebook)
-# # del student_phonebook["Tracey"] # This will delete Tracey
-# # student_phonebook["Cindy"] = 555 # This will overide Cindy's value
-# # print(student_phonebook["Asli"]) # This will give you an error
-# # student_phonebook["Yara"] = 555 # Square brackets are the new key
 # print(student_phonebook)
-# # print(type(student_phonebook))
+# # # del student_phonebook["Tracey"] # This will delete Tracey
+# # # student_phonebook["Cindy"] = 555 # This will overide Cindy's value
+# # # print(student_phonebook["Asli"]) # This will give you an error
+# # # student_phonebook["Yara"] = 555 # Square brackets are the new key
+# # print(student_phonebook)
+# # # print(type(student_phonebook))
 
-student_phonebook = {
-    "Cindy":111,
-    "Tracey":123,
-    "Pauline":444
-    } 
+# student_phonebook = {
+#     "Cindy":111,
+#     "Tracey":123,
+#     "Pauline":444
+#     } 
 
 # for key in student_phonebook:
 #     # print(element) # as a defeult it gives you the keys
@@ -77,8 +77,8 @@ for value in groceries.values():
 # In the last lesson, you wrote a program that counted the number of colour names 
 # in the colours_865.csv file (available here).
 # Try rewriting this program so that instead of using separate variables 
-# to keep track ofthe number of times each colour name appears, 
-# it uses a single dictionary instead.Here's a dictionary to get you started:
+# to keep track of the number of times each colour name appears, 
+# it uses a single dictionary instead. Here's a dictionary to get you started:
 
 colour_counts = {
     "blue": 0,
@@ -88,3 +88,5 @@ colour_counts = {
     "purple": 0,
     "orange": 0,
     }
+
+
