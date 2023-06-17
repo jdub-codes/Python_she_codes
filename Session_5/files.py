@@ -34,6 +34,8 @@ with open(file="colours_20_simple.csv", mode="r", encoding="utf-8") as my_file:
     for row in csv_reader:
         print(row)
 
+
+
 # Question 2 
 
 # Write a program that reads in colours_20_simple.csv and outputs the colour data in order 

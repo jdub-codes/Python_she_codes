@@ -69,8 +69,7 @@
 prompt = input("Could I please have an integer?:")
 
 def get_integer():
-    user_input = int(prompt)
-    return user_input
+    return 
 
 user_input = get_integer(prompt)
 print(f"So your integer is {user_input}? Thanks!")

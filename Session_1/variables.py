@@ -45,7 +45,7 @@ distance = "5000"
 # second_number = input("What is your second number?")
 # print(f"The sum of your numbers is {int(first_number)*int(second_number)}")
 
-# Write a program that takes a distance in kilometers from the user, and outputs the distance in meters and centimeters.
+# # Write a program that takes a distance in kilometers from the user, and outputs the distance in meters and centimeters.
 # distance = input("What is this distance you want to travel in km?")
 # print(f"Your distance in meters is {int(distance)*1000}")
 
