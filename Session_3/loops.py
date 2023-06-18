@@ -223,16 +223,15 @@
 
 # Question 2
 
-# number = 84
+# number = 45
 # repeat = 'yes'
 # while repeat != 'no':
 #     guess = int(input("Make a guess: "))
 #     while number != guess:
 #         if guess < number:
-#             print("Too long! Try again.")
+#             print("Too low! Try again.")
 #         else:
 #             print("Too high. Try again.")
 #         guess = int(input("Make another guess:"))
 #     print("You got it right!")
 #     repeat = input("Do you want to play again? Type 'no' to exit the game")
-

@@ -5,7 +5,7 @@ import csv
 #         print(row)
 
 
-    # print(my_file) # cd to the correct directory e.g. Session_5
+# print(my_file) # cd to the correct directory e.g. Session_5
 # open(file="dogs_are_awesome.csv") # only put the other things if you want to change it
 # r is for reading 
 # when you call a function the order of arguments are very important
@@ -47,14 +47,14 @@ import csv
 #     for row in csv_reader:
 #         print(f"{row[2]}, Hex:{row[1]}, RGB:{row[0]}")
 
-with open(file="colours_20_simple.csv", mode="r", encoding="utf-8") as my_file:
-    csv_reader = csv.reader(my_file, delimiter = ",")
-    header = True
-    for row in csv_reader:
-        if header == False:
-            print(f"{row[2]}, Hex:{row[1]}, RGB:{row[0]}")
-        else:
-            header = False
+# with open(file="colours_20_simple.csv", mode="r", encoding="utf-8") as my_file:
+#     csv_reader = csv.reader(my_file, delimiter = ",")
+#     header = True
+#     for row in csv_reader:
+#         if header == False:
+#             print(f"{row[2]}, Hex:{row[1]}, RGB:{row[0]}")
+#         else:
+#             header = False
 
 # My Answer
 
@@ -64,7 +64,12 @@ with open(file="colours_20_simple.csv", mode="r", encoding="utf-8") as my_file:
 
 # Write a program that takes a csv file describing colours, 
 # and outputs the number of times each of the following colours 
-# appears in the English Name:redgreenblueyellowOutput for colours_20.csv:
+# appears in the English Name:red green blue yellow Output for colours_20.csv:
+
+# Red: 0
+# Green: 0
+# Blue: 0
+# Yellow: 1
 
 with open(file="colours_20_simple.csv", mode="r", encoding="utf-8") as my_file:
     csv_reader = csv.reader(my_file, delimiter = ",")
@@ -75,15 +80,8 @@ with open(file="colours_20_simple.csv", mode="r", encoding="utf-8") as my_file:
     for row in csv_reader:
         if "red" in row[2].lower():
             Red = Red + 1
-        elif "green"
-    
-        print(row)
-
-# Red: 0
-# Green: 0
-# Blue: 0
-# Yellow: 1
 
 # Question 4
 
 # My Answer
+
