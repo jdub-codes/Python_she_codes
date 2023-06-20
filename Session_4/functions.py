@@ -66,16 +66,16 @@
 
 # My Answer
 
-prompt = input("Could I please have an integer?:")
+# prompt = input("Could I please have an integer?:")
 
-def get_integer(x): #x = "Could I please have an interger?:""
-    # result = int(input(x))
-    # return result
-    return int(input(x))
+# def get_integer(x): #x = "Could I please have an interger?:""
+#     # result = int(input(x))
+#     # return result
+#     return int(input(x))
 
-user_input = get_integer(prompt)
-# get_integer("Give me something")
-print(f"So your integer is {user_input}? Thanks!")
+# user_input = get_integer(prompt)
+# # get_integer("Give me something")
+# print(f"So your integer is {user_input}? Thanks!")
 
 # Question 2
 
@@ -92,9 +92,9 @@ print(f"So your integer is {user_input}? Thanks!")
 # answer = float((temperature-32)*5/9)
 # print(f"Which means the temp in Celcius is {answer}")
 
-# temperature = int(input("What is the temperature (Fahrenheit)? : "))
-# print(f"Okay, so the temp in Fahrenheit is {temperature}...")
-# def convert():
-#     answer = float((temperature-32)*5/9)
-#     print(f"Which means the temp in Celcius is {answer}")
-# convert()
+temperature = int(input("What is the temperature (Fahrenheit)? : "))
+print(f"Okay, so the temp in Fahrenheit is {temperature}...")
+def convert():
+    answer = float((temperature-32)*5/9)
+    print(f"Which means the temp in Celcius is {answer}")
+convert()
