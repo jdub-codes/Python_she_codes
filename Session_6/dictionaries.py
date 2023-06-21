@@ -28,7 +28,7 @@
 #     } 
 
 # for key in student_phonebook:
-#     # print(element) # as a defeult it gives you the keys
+#     # print(element) # as a default it gives you the keys
 #     print(key, student_phonebook[key]) # this is giving you pairs
 
 # for value in student_phonebook.values(): # this will iterate through all of the values

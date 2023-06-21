@@ -10,7 +10,7 @@ class Book:
         return f"Title: {self.title}, Author: {self.author}"
     
     def bookmark_page(self):
-        self.bookmakr - self.current_page
+        self.bookmark - self.current_page
 
     def turn_page(self):
         self.current_page += 1
