@@ -64,22 +64,32 @@ import csv
 
 # Write a program that takes a csv file describing colours, 
 # and outputs the number of times each of the following colours 
-# appears in the English Name:red green blue yellow Output for colours_20.csv:
+# appears in the English name:
 
-# Red: 0
-# Green: 0
-# Blue: 0
-# Yellow: 1
+# red
+# green
+# blue
+# yellow
 
 with open(file="colours_20_simple.csv", mode="r", encoding="utf-8") as my_file:
     csv_reader = csv.reader(my_file, delimiter = ",")
     Red = 0
     Green = 0
     Blue = 0
-    Yellow = 1
+    Yellow = 0
     for row in csv_reader:
         if "red" in row[2].lower():
             Red = Red + 1
+        if "green" in row[2].lower():
+            Green = Green + 1
+        if "blue" in row[2].lower():
+            Blue = Blue + 1
+        if "yellow" in row[2].lower():
+            Yellow = Yellow + 1
+    print("Red =", Red)
+    print("Green =", Green)
+    print("Blue =", Blue)
+    print("Yellow =", Yellow)
 
 # Question 4
 
